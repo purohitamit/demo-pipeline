@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS author (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    author_name VARCHAR(60) NOT NULL
+);
+CREATE TABLE IF NOT EXISTS book (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR (90) NOT NULL,
+    price DECIMAL (4,2) NOT NULL,
+    publish_date DATE NOT NULL,
+    book_id INT NOT NULL,
+    FOREIGN KEY (book_id) REFERENCES author(id)
+);
