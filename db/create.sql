@@ -7,6 +7,6 @@ CREATE TABLE IF NOT EXISTS book (
     title VARCHAR (90) NOT NULL,
     price DECIMAL (4,2) NOT NULL,
     publish_date DATE NOT NULL,
-    book_id INT NOT NULL,
-    FOREIGN KEY (book_id) REFERENCES author(id)
+    author_id INT NOT NULL,
+    FOREIGN KEY (author_id) REFERENCES author(id)
 );
