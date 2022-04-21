@@ -9,7 +9,7 @@ https://github.com/spring-petclinic/spring-petclinic-angular https://github.com/
 Our roles for the project were the following:
 
 Scrum master - Amit
-Product owner - Chris
+Product owner - Christian
 Uche
 William
 Majid
