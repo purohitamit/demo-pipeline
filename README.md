@@ -39,7 +39,8 @@ During our first week we help daily project planning meetings in order to establ
 The technologies we used to complete our CI/CD Pipeline were:
 * Git - version Control.
 * Github - In order to manage our repository and to manage our workflow.
-* AWS - Our Cloud Platform was Amazon Web Services as we had newly developed our talents and wanted to demonstrate how we would implement what we have learnt including the technologies relating to it such as AWS EKS whcih was used in order to start, run and scale our kubernetes (k8s) functionalites.
+* AWS - Our Cloud Platform was Amazon Web Services as we had newly developed our talents and wanted to demonstrate how we would implement what we have learnt including the technologies relating to it such as:
+                                        * AWS EKS whcih was used in order to start, run and scale our kubernetes (k8s) functionalites.
 * Terrafrom - We used Terraform in order to automate the creation of our instances on AWS.
 * Docker / Docker Compose - was used in order to create our containers on Docker hub for used as Kubernetes pods.
 * Kubernetes - To orchestrate and manage our containers and virtual machines.
