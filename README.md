@@ -17,9 +17,9 @@ Our roles for the project were the following:
 
 Scrum master - Amit <br />
 Product owner - Christian <br />
-Uche <br />
-William <br />
-Majid <br />
+Uche - Developer <br />
+William - Developer <br />
+Majid - Developer <br />
 
 ## Scope
 Our Team was required to work with these externally developed applictions:
